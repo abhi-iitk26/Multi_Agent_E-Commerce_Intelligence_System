@@ -17,23 +17,25 @@ Production-grade agentic AI system that converts unstructured customer signals i
 - Evaluation metrics
 - Docker-ready architecture
 
-📁 Project Structure (STANDARD PRACTICE)
+# 📁 Project Structure (Standard Practice)
+
+```text
 ecommerce_agentic_ai/
 │
-├── main.py
-├── graph.py
-├── state.py
+├── main.py                  # Application entry point
+├── graph.py                 # Agent workflow / orchestration logic
+├── state.py                 # Shared state management across agents
 │
 ├── agents/
-│   ├── research_agent.py
-│   ├── strategy_agent.py
-│   ├── content_agent.py
+│   ├── research_agent.py    # Market & product research agent
+│   ├── strategy_agent.py    # Decision-making & strategy agent
+│   └── content_agent.py     # Content generation agent
 │
 ├── tools/
-│   └── search.py
+│   └── search.py            # External search / API tools
 │
 ├── evaluation/
-│   └── metrics.py
+│   └── metrics.py           # Model & recommendation evaluation metrics
 │
-├── requirements.txt
-└── README.md
+├── requirements.txt         # Python dependencies
+└── README.md                # Project documentation
