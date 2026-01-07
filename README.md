@@ -17,7 +17,7 @@ Production-grade agentic AI system that converts unstructured customer signals i
 - Evaluation metrics
 - Docker-ready architecture
 
-# 📁 Project Structure (Standard Practice)
+# 📁 Project Structure
 
 ```text
 ecommerce_agentic_ai/
@@ -39,3 +39,4 @@ ecommerce_agentic_ai/
 │
 ├── requirements.txt         # Python dependencies
 └── README.md                # Project documentation
+
